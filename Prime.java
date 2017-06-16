@@ -1,7 +1,7 @@
 class Prime{  
  public static void main(String args[]){  
   int i,m=0,flag=0;    
-  int n=17;//it is the number to be checked  
+  int n=2;//I've changed the num that is to be checked  
   m=n/2;    
   for(i=2;i<=m;i++){    
    if(n%i==0){    
