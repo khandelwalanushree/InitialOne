@@ -5,14 +5,14 @@ class OddOrEven
    public static void main(String args[])
    {
       int num;
-      System.out.println("Enter an integer to check if it is odd or even ");
+      System.out.println("Enter the number to be checked ");//changed the statement
       Scanner in = new Scanner(System.in);
       num = in.nextInt();
  
       if ( num % 2 == 0 )
-         System.out.println("You entered an even number.");
+         System.out.println(" even number.");//changed the statement
       else
-         System.out.println("You entered an odd number.");
+         System.out.println(" odd number.");//changed the statement
    }
 }
 //Changed variable x with num
